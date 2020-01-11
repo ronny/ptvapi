@@ -13,11 +13,8 @@ This library is mostly auto generated from the published swagger file:
 using the go-swagger tool:
 <a href="https://github.com/go-swagger/go-swagger">https://github.com/go-swagger/go-swagger</a>
 
-See the [transport] package for information on how to use a client that
+See the [transport](transport) package for information on how to use a client that
 automatically includes the `devid` and `signature` params as required by the
 PTV Timetable API v3.
-
-[transport]: transport/README.md
-
 
 See [examples](examples) to see examples on how to use this library.
