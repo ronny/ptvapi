@@ -1373,7 +1373,7 @@
           "200": {
             "description": "Route names and numbers for all routes of all route types.",
             "schema": {
-              "$ref": "#/definitions/V3.RouteResponse"
+              "$ref": "#/definitions/V3.RoutesResponse"
             }
           },
           "400": {
@@ -3655,6 +3655,22 @@
           "type": "object",
           "additionalProperties": {
             "$ref": "#/definitions/V3.Direction"
+          }
+        },
+        "status": {
+          "$ref": "#/definitions/V3.Status",
+          "description": "API Status / Metadata"
+        }
+      }
+    },
+    "V3.RoutesResponse": {
+      "type": "object",
+      "properties": {
+        "routes": {
+          "description": "Train lines, tram routes, bus routes, regional coach routes, Night Bus routes",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/V3.RouteWithStatus"
           }
         },
         "status": {
