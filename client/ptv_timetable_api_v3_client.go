@@ -11,16 +11,16 @@ import (
 
 	strfmt "github.com/go-openapi/strfmt"
 
-	"github.com/ronny/ptvapi/client/departures"
-	"github.com/ronny/ptvapi/client/directions"
-	"github.com/ronny/ptvapi/client/disruptions"
-	"github.com/ronny/ptvapi/client/outlets"
-	"github.com/ronny/ptvapi/client/patterns"
-	"github.com/ronny/ptvapi/client/route_types"
-	"github.com/ronny/ptvapi/client/routes"
-	"github.com/ronny/ptvapi/client/runs"
-	"github.com/ronny/ptvapi/client/search"
-	"github.com/ronny/ptvapi/client/stops"
+	"github.com/ronny/ptvapi/v3/client/departures"
+	"github.com/ronny/ptvapi/v3/client/directions"
+	"github.com/ronny/ptvapi/v3/client/disruptions"
+	"github.com/ronny/ptvapi/v3/client/outlets"
+	"github.com/ronny/ptvapi/v3/client/patterns"
+	"github.com/ronny/ptvapi/v3/client/route_types"
+	"github.com/ronny/ptvapi/v3/client/routes"
+	"github.com/ronny/ptvapi/v3/client/runs"
+	"github.com/ronny/ptvapi/v3/client/search"
+	"github.com/ronny/ptvapi/v3/client/stops"
 )
 
 // Default PTV timetable API v3 HTTP client.

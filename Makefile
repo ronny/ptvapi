@@ -10,13 +10,6 @@ test: vet
 vet:
 	go vet ./...
 
-generate:
-	# You will need godoc2ghmd to be installed first:
-	#
-	#   go get -u github.com/iflix/godoc2ghmd
-	#
-	go generate -v ./...
-
 regenerate-client:
 	# You will need go-swagger to be installed first:
 	#

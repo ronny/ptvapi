@@ -21,7 +21,7 @@ both the `devid` and `signature` query param in all requests to the API.
 	transport := transport.NewSigningTransport(underlyingTransport,
 		os.Getenv("DEVID"), os.Getenv("APIKEY"))
 
-	// Create a new `client` (from github.com/ronny/ptvapi/client pkg) with the
+	// Create a new `client` (from github.com/ronny/ptvapi/v3/client pkg) with the
 	// custom transport
 	client := apiclient.New(transport, strfmt.Default)
 
@@ -35,5 +35,3 @@ See `examples/get-routes/` for a complete example of how to use this package.
 
 */
 package transport
-
-//go:generate godoc2ghmd -file=README.md github.com/ronny/ptvapi/transport

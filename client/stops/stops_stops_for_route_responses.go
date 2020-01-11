@@ -13,7 +13,7 @@ import (
 
 	strfmt "github.com/go-openapi/strfmt"
 
-	models "github.com/ronny/ptvapi/models"
+	models "github.com/ronny/ptvapi/v3/models"
 )
 
 // StopsStopsForRouteReader is a Reader for the StopsStopsForRoute structure.

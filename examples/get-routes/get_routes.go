@@ -7,9 +7,9 @@ import (
 
 	httptransport "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
-	apiclient "github.com/ronny/ptvapi/client"
-	"github.com/ronny/ptvapi/client/routes"
-	"github.com/ronny/ptvapi/transport"
+	apiclient "github.com/ronny/ptvapi/v3/client"
+	"github.com/ronny/ptvapi/v3/client/routes"
+	"github.com/ronny/ptvapi/v3/transport"
 )
 
 func main() {

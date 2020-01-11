@@ -13,7 +13,7 @@ import (
 
 	strfmt "github.com/go-openapi/strfmt"
 
-	models "github.com/ronny/ptvapi/models"
+	models "github.com/ronny/ptvapi/v3/models"
 )
 
 // DisruptionsGetDisruptionModesReader is a Reader for the DisruptionsGetDisruptionModes structure.

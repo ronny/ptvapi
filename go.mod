@@ -1,4 +1,4 @@
-module github.com/ronny/ptvapi
+module github.com/ronny/ptvapi/v3
 
 go 1.13
 
