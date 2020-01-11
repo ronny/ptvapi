@@ -18,3 +18,10 @@ automatically includes the `devid` and `signature` params as required by the
 PTV Timetable API v3.
 
 See [examples](examples) to see examples on how to use this library.
+
+## GoDoc
+
+![GoDoc](https://godoc.org/github.com/ronny/ptvapi/v3/client?status.svg)
+  * [client](http://godoc.org/github.com/ronny/ptvapi/v3/client)
+  * [models](http://godoc.org/github.com/ronny/ptvapi/v3/models)
+  * [transport](http://godoc.org/github.com/ronny/ptvapi/v3/transport)
